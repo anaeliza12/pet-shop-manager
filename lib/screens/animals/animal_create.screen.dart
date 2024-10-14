@@ -7,7 +7,7 @@ import '../../util/snippets.dart';
 class AnimalCreateScreen extends StatefulWidget {
   const AnimalCreateScreen({super.key})
 
-  @override
+ @override
   State<AnimalCreateScreen> createState() => _AnimalCreateScreenState();
 }
 
