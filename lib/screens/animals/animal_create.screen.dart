@@ -1,13 +1,12 @@
 import 'package:cp/domain/animal.dart';
 import 'package:cp/screens/animals/animal.controller.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../util/snippets.dart';
 
 class AnimalCreateScreen extends StatefulWidget {
-  const AnimalCreateScreen({super.key})
+  const AnimalCreateScreen({super.key});
 
- @override
+  @override
   State<AnimalCreateScreen> createState() => _AnimalCreateScreenState();
 }
 
